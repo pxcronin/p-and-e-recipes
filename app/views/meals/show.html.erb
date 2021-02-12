@@ -1,0 +1,16 @@
+<div class="container">
+  <h1><%= @meal.name %>
+    <%= link_to meal_path, method: "delete", data: {confirm: "Are you sure you want to delete this meal?"} do %>
+      <i class="far fa-trash-alt"></i>
+    <% end %>
+    <%= link_to edit_meal_path do %>
+      <i class="far fa-edit"></i>
+    <% end %>
+  </h1>
+  <p class="lead"><%= @meal.description %></p>
+  <h3>Ingredients</h3>
+  <% @meal.amounts.each do |ingredient| %>
+    <p class="lead"><%= ingredient.description %> <%= Ingredient.find(ingredient.id).name %></p>
+  <% end %>
+  <%= render 'shared/new_amount' %>
+</div>

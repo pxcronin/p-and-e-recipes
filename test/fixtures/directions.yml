@@ -1,0 +1,37 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  meal: one
+  step_one: MyText
+  step_two: MyText
+  step_three: MyText
+  step_four: MyText
+  step_five: MyText
+  step_six: MyText
+  step_seven: MyText
+  step_eight: MyText
+  step_nine: MyText
+  step_ten: MyText
+  step_eleven: MyText
+  step_twelve: MyText
+  step_thirteen: MyText
+  step_fourteen: MyText
+  step_fifteen: MyText
+
+two:
+  meal: two
+  step_one: MyText
+  step_two: MyText
+  step_three: MyText
+  step_four: MyText
+  step_five: MyText
+  step_six: MyText
+  step_seven: MyText
+  step_eight: MyText
+  step_nine: MyText
+  step_ten: MyText
+  step_eleven: MyText
+  step_twelve: MyText
+  step_thirteen: MyText
+  step_fourteen: MyText
+  step_fifteen: MyText
